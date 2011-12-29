@@ -1,0 +1,689 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: https://tbe.taleo.net:443/NA9/ats/careers/searchResults.jsp
+    body: submit=Search&WebVersion=0&org=HOS&WebPage=JSRCH&act=search&cws=1&keywords=
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      expires: 
+      - Wed, 31 Dec 1969 23:59:59 GMT
+      p3p: 
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+      content-type: 
+      - text/html;charset=UTF-8
+      server: 
+      - Apache
+      date: 
+      - Thu, 29 Dec 2011 20:44:44 GMT
+      set-cookie: 
+      - JSESSIONID=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm; Path=/NA9/ats; Secure
+      cache-control: 
+      - no-cache, no-store, must-revalidate
+      pragma: 
+      - no-cache
+      transfer-encoding: 
+      - chunked
+    body: |
+      
+      
+      
+      
+      
+      
+      <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <HTML><HEAD>
+      <STYLE type="text/css">
+      #taleoContent {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 15px;
+        border: none;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+        text-shadow: none;
+        text-transform: none;
+        white-space: normal;
+        word-spacing: normal;
+      }
+      
+      #taleoContent td, #taleoContent th {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+        text-shadow: none;
+        text-transform: none;
+        white-space: normal;
+        word-spacing: normal;
+      }
+      
+      #taleoContent textarea {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      
+      #taleoContent textfield {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      
+      #taleoContent select {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      
+      #taleoContent input {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      </STYLE>
+      </HEAD><BODY>
+      
+      <div id='taleoContent'>
+      <script type='text/javascript' src="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+      <script type='text/javascript' src="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/js/UIv8/tbe-basic-cws.js"></script>
+      <script type='text/javascript'> CwsDWRFacade._path = 'https://tbe.taleo.net/NA9/ats/dwr-cws';
+      DWREngine.setRpcType(DWREngine.ScriptTag);
+      var DWRFacade = CwsDWRFacade; </script>
+      <script type="text/javascript">
+      var timer;
+      var calendarArray = new Array ();
+      function startSessionTimer(){
+      	timer=setTimeout("sessionAboutToEnd()", 86100000);
+      }
+      function sessionAboutToEnd(){
+      	var oHead = document.getElementsByTagName('head')[0];
+      	loadScript(oHead, 'https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/js/UIv8/engine.js',  function() {
+      		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+      		if(answer){
+      			DWREngine.setErrorHandler( function(errorString, exception) {
+      				window.location = "https://tbe.taleo.net/NA9/ats/sessionTimedOut.jsp"
+      			});
+      			CwsDWRFacade.refreshSession();
+      			clearTimeout(timer);
+      			startSessionTimer();
+      		} else {
+      			window.location = "https://tbe.taleo.net/NA9/ats/sessionTimedOut.jsp";
+      		}
+      	});
+      }
+      startSessionTimer();</script>
+      <table border=0 cellspacing=0 cellpadding=2 width='100%'>
+      <tr>
+      </tr>
+      <tr>
+      <td colspan=2><hr width='100%' size='1' color='silver'>
+      <span class='head1'><b>Search Results</b></span></td>
+      </tr>
+      <tr>
+      <link rel="alternate" type="application/rss+xml" href="https://tbe.taleo.net/NA9/ats/servlet/Rss?org=HOS&cws=1&WebPage=SRCHR&WebVersion=0&_rss_version=2">
+      <tr>
+      <td align='left' colspan=2>Your search found <b>25</b> matching job(s).&nbsp;&nbsp;
+      <a href="https://tbe.taleo.net/NA9/ats/servlet/Rss?org=HOS&cws=1&WebPage=SRCHR&WebVersion=0&_rss_version=2" target="_blank"><img src="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/img/UIv8/rss.gif" alt="RSS" border=0 align='middle'></a><br><br></td>
+      </tr>
+      <tr>
+      <td colspan=2>
+      <table border='0' cellspacing='0' cellpadding='2' width='100%'>
+      
+      <tr>
+      <td>
+      <table border='0' cellspacing='0' cellpadding='2' width='100%'>
+      <tr bgcolor='#CCCCCC' height=1><td colspan='2' height=1></td></tr>
+      <tr>
+      <th align='left' nowrap><b><a href='https://tbe.taleo.net/NA9/ats/careers/searchResults.jsp?org=HOS&cws=1&act=sort&sortColumn=0'>Position/Title<a href="https://tbe.taleo.net/NA9/ats/careers/searchResults.jsp?org=HOS&cws=1&act=sort&sortColumn=0"><img src="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/img/UIv8/asc.gif" alt="Ascending" border=0 align='middle'></a></a></b>&nbsp;&nbsp; </th>
+      <th align='left' nowrap><b><a href='https://tbe.taleo.net/NA9/ats/careers/searchResults.jsp?org=HOS&cws=1&act=sort&sortColumn=1'>Location</a></b>&nbsp;&nbsp; </th>
+      </tr>
+      <tr bgcolor='#CCCCCC' height=1><td colspan='2' height=1></td></tr><tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=103'>Accounts Payable Clerk</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=96'>Business Development Manager</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=108'>Buyer I</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=87'>Compliance Coordinator</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=92'>Director of Learning Development &amp; Training</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=85'>DPQA Coordinator</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=97'>Estimator</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=104'>International Accounting Analyst</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=14'>Officer in Charge of an Engineering Watch</a></td>
+      <td align='left' valign='top'><b>OSV and Specialty Vessels</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=13'>Officer in Charge oif a Navigational Watch</a></td>
+      <td align='left' valign='top'><b>OSV and Specialty Vessels</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=76'>Personnel Manager</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=90'>Port Engineer</a></td>
+      <td align='left' valign='top'><b>OSV and Specialty Vessels</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=100'>Project Engineer</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=98'>Project Manager</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=111'>Purchasinfg Administrator</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=91'>ROV Superintendent</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=105'>Senior Accountant</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=93'>Shipyard Project Coordinator</a></td>
+      <td align='left' valign='top'><b>HOS Port</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=107'>Sr. Buyer</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=89'>Staff Accountant</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=112'>Training Mate</a></td>
+      <td align='left' valign='top'><b>OSV and Specialty Vessels</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=32'>Tug Mate</a></td>
+      <td align='left' valign='top'><b>Tugs and Tank Barges</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=33'>Vessel Cook</a></td>
+      <td align='left' valign='top'><b>OSV and Specialty Vessels</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=110'>Vessel Group Manager</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr>
+      <td align='left' valign='top'><b><a href='https://tbe.taleo.net/NA9/ats/careers/requisition.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1&rid=109'>Vessel IT Analyst</a></td>
+      <td align='left' valign='top'><b>Headquarters</td>
+      </tr>
+      <tr bgcolor='#CCCCCC' height=1><td colspan='2' height=1></td></tr></table>
+      </td>
+      </tr>
+      
+      </table>
+      </td>
+      </tr>
+      </tr>
+      <tr>
+      <td colspan=2 width='100%'><a href='https://tbe.taleo.net/NA9/ats/careers/jobSearch.jsp;jsessionid=1E1561EC784E20A658B58ABB6DA646D6.NA9_primary_jvm?org=HOS&cws=1'>New Search</a><br><br></td>
+      </tr>
+      <tr>
+      <td colspan=2 width='100%'><br><div align='right'><a href='https://www.taleo.com' target='_blank'><img src='https://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></a></div><br><br></td>
+      </tr>
+      </table>
+      
+      
+      
+      
+      
+      
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.core.css">
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.theme.css">
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+      
+      <script language="JavaScript">
+          //jQuery Calendar
+          jQuery(document).ready(function($) {
+      	$('.jquerycalendar').datepicker({
+      altField:'',altFormat:'',appendText:'',buttonImage:'https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'...',changeMonth:true,changeYear:true,closeText:'Close',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2020'});});
+      </script>
+      <!--- FOOTER --->
+      
+      </DIV></BODY></HTML>
+      
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://tbe.taleo.net:443/NA9/ats/careers/requisition.jsp?cws=1&org=HOS&rid=103
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      expires: 
+      - Wed, 31 Dec 1969 23:59:59 GMT
+      p3p: 
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+      content-type: 
+      - text/html;charset=UTF-8
+      server: 
+      - Apache
+      date: 
+      - Thu, 29 Dec 2011 20:44:44 GMT
+      set-cookie: 
+      - JSESSIONID=E82F1DD11CCDA595EF60B5CEFC0BD1C1.NA9_primary_jvm; Path=/NA9/ats; Secure
+      cache-control: 
+      - no-cache, no-store, must-revalidate
+      pragma: 
+      - no-cache
+      transfer-encoding: 
+      - chunked
+    body: |
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <HTML><HEAD>
+      <STYLE type="text/css">
+      #taleoContent {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 15px;
+        border: none;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+        text-shadow: none;
+        text-transform: none;
+        white-space: normal;
+        word-spacing: normal;
+      }
+      
+      #taleoContent td, #taleoContent th {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+        text-shadow: none;
+        text-transform: none;
+        white-space: normal;
+        word-spacing: normal;
+      }
+      
+      #taleoContent textarea {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      
+      #taleoContent textfield {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      
+      #taleoContent select {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      
+      #taleoContent input {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-size-adjust: none;
+        font-style: normal;
+        font-stretch: normal;
+        font-weight: normal;
+        font-variant: normal;
+        height: auto;
+        width: auto;
+      }
+      </STYLE>
+      </HEAD><BODY>
+      
+      <div id='taleoContent'>
+      <script type='text/javascript' src="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+      <script type='text/javascript' src="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/js/UIv8/tbe-basic-cws.js"></script>
+      <script type='text/javascript'> CwsDWRFacade._path = 'https://tbe.taleo.net/NA9/ats/dwr-cws';
+      DWREngine.setRpcType(DWREngine.ScriptTag);
+      var DWRFacade = CwsDWRFacade; </script>
+      <script type="text/javascript">
+      var timer;
+      var calendarArray = new Array ();
+      function startSessionTimer(){
+      	timer=setTimeout("sessionAboutToEnd()", 86100000);
+      }
+      function sessionAboutToEnd(){
+      	var oHead = document.getElementsByTagName('head')[0];
+      	loadScript(oHead, 'https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/js/UIv8/engine.js',  function() {
+      		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+      		if(answer){
+      			DWREngine.setErrorHandler( function(errorString, exception) {
+      				window.location = "https://tbe.taleo.net/NA9/ats/sessionTimedOut.jsp"
+      			});
+      			CwsDWRFacade.refreshSession();
+      			clearTimeout(timer);
+      			startSessionTimer();
+      		} else {
+      			window.location = "https://tbe.taleo.net/NA9/ats/sessionTimedOut.jsp";
+      		}
+      	});
+      }
+      startSessionTimer();</script>
+      <table border=0 cellspacing=0 cellpadding=2 width='100%'>
+      <tr>
+      </tr>
+      <tr>
+      <td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><b>Accounts Payable Clerk</b></td>
+      </tr>
+      <tr>
+      <td align='right' valign='top' style="width: 160px;" class='nowrapFormLabel' nowrap>Location:</td>
+      <td valign='top' class='formFieldNormal' colspan=1 width='100%'><b>Headquarters</b></td>
+      </tr>
+      <tr>
+      <td align='right' valign='top' style="width: 160px;" class='nowrapFormLabel' nowrap>Job Code:</td>
+      <td valign='top' class='formFieldNormal' colspan=1 width='100%'><b>103</b></td>
+      </tr>
+      <tr>
+      <td align='right' valign='top' style="width: 160px;" class='nowrapFormLabel' nowrap># of openings:</td>
+      <td valign='top' class='formFieldNormal' colspan=1 width='100%'><b>1</b></td>
+      </tr>
+      <tr>
+      <tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+      <tr><td colspan=2><b>Description</b></td></tr>
+      <tr><td colspan=2><div><b><font size="6"><b><span style="font-size: 10pt">FLSA Status:&nbsp;NON-EXEMPT</span></b></font></b></div>
+      <div align="center"><b><font size="6"><b>&nbsp;</b></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in"><b><font size="5"><span><font size="2">I.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">SUMMARY DESCRIPTION</font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Accounts Payable Clerk is responsible for processing transactions for the liabilities of Hornbeck Offshore Services, Inc. and subsidiaries.&nbsp;These liabilities includes, but is not limited to, accounts payable, notes payable, accrued and other liabilities. This position performs accounting activities such as maintenance of the general ledger and preparation of various accounting statements and financial reports, relies on instructions and pre-established guidelines to perform the functions of the job, works well under immediate supervision.&nbsp;The primary job functions do not typically require exercising independent judgment as the clerk reports to a manager.</font></div>
+      <div><font size="2"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></div>
+      <div style="margin: 12pt 0in 0pt 0.5in"><b><font size="5"><span><font size="2">II.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">ORGANIZATIONAL RELATIONSHIP</font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">The Accounts Payable Clerk reports directly to the Accounting Manager. Works closely with the Controllers, Staff Accountants, Purchasing Department, and vendors as they pertain to the performance of the responsibilities of this position.</font></div>
+      <div style="margin: 12pt 0in 0pt 0.5in"><b><font size="5"><span><font size="2">III.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">AUTHORITY</font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">There are no direct reports to the Accounts Payable Clerk.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></div>
+      <div style="margin: 12pt 0in 0pt 0.5in"><b><font size="5"><span><font size="2">IV.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">RESPONSIBILITY</font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">The Accounts Payable Clerk is responsible for:</font></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Recording vendor invoices on a daily basis for all companies and applying the transaction to the appropriate requisition or purchase order.&nbsp;Any vendor invoices that are unable to be recorded will be investigated on a daily or weekly basis, as necessary.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Reconciling the accounts payable subsidiary balances with the Lawson book balances on a monthly basis for all companies.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Performing the computer check writing sequence for all companies, including but not limited to the creation of a payable trial balance, recommendation of vendors to be paid, the vendor invoice selection process, printing of the checks and obtaining signatures.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Maintaining vendor relationships relating to credit references.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Responding to vendor calls regarding pay status and vendor invoice status.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Reviewing and processing petty cash or other imprest account transactions that are submitted for reimbursement according to the petty cash procedures.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Monitor and evaluate all claims payable accounts and determine appropriate internal and external transactions to be recorded to claims payable based on requisition and claim descriptions.&nbsp;Accumulate documentation for claims to be submitted to insurance representatives.&nbsp;</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Review all entries into the Property Plant and Equipment accounts and separate required filing of these documents.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Prepare written work process descriptions for all tasks performed.</font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Reviews invoices for accuracy and completeness and sorts documents by account name or number and processes invoices for payment.&nbsp;May perform other basic clerical duties associated with accounts payable such as filing.&nbsp;May post transactions to journals, ledgers and other records. </font></div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 6pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Verifies and posts transactions to journals, ledgers and other records.&nbsp;Prepares statements, invoices and vouchers.&nbsp;May handle balancing and reconciliations. May specialize in one area of the accounting function (e.g. project accounting, personnel costs). </font></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Reviews records of routine financial transactions relative to collections, refunds, accounts payable, and accounts receivable to ensure accuracy and completeness of calculations, legitimacy of transactions, proper authorization, and limited purchasing.</span></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Responsible for posting and journalizing a variety of small accounts or one or more large accounts of limited complexity.</span></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Assists in or maintains vendor records (files).</span></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Assists in the distribution of vendor checks </span></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Locates and corrects journalizing and posting errors (integrations).</span></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Determines necessary entries to reflect information not yet recorded (accruals).</span></div>
+      <div style="text-indent: -0.25in; margin-left: 1in"><span style="font-size: 10pt">&middot;<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10pt">Reconciles ledger entries to ensure accounts are in balance.</span></div>
+      <div style="text-align: justify; text-indent: -0.25in; margin: 0in 0in 0pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Manage all aspects of the Accounts Payable cycle, including annual preparation of tax forms and fiscal year-end audit schedules</font></div>
+      <div style="text-align: justify; margin: 0in 0in 0pt 0.75in">&nbsp;</div>
+      <div style="text-indent: -0.25in; margin: 0in 0in 0pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Assist in accounting functions by providing backup for personnel costs and project accounting processing</font></div>
+      <div>&nbsp;</div>
+      <div style="text-align: justify; text-indent: -0.25in; margin: 0in 0in 0pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Reconcile petty cash and other cash accounts</font></div>
+      <div>&nbsp;</div>
+      <div style="text-align: justify; text-indent: -0.25in; margin: 0in 0in 0pt 1in"><span><font size="2">&middot;</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">Other duties as assigned.</font></div>
+      <div style="margin: 12pt 0in 0pt 0.5in"><b><font size="5"><span><font size="2">V.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">ETHICAL RESPONSIBILITY</font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">The Accounts Payable Clerk has an obligation to the organization, their profession and themselves to maintain the highest standards of ethical conduct.&nbsp;The Accounts Payable Clerk is expected to adhere to the Standards of Ethical Conduct as promulgated by the Institute of Management Accountants.</font></div>
+      <div style="margin: 12pt 0in 0pt 0.5in"><b><font size="5"><span><font size="2">VI.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">HOURS OF WORK</font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">Office hours are Monday through Friday; 8:00am until 5:00pm. </font></div>
+      <div style="margin: 12pt 0in 0pt 0.5in"><b><font size="5"><span><font size="2">VII.</font><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><font size="2">QUALIFICATIONS AND EXPERIENCE&nbsp;&nbsp; </font></font></b></div>
+      <div style="margin: 0in 0in 0pt 0.5in">&nbsp;</div>
+      <div style="margin: 0in 0in 0pt 1.5in"><font size="2">Skills:&nbsp;&nbsp;Working knowledge of Lawson or similar accounting packages.&nbsp; Portuguese language preferred.</font></div>
+      <div style="margin: 0in 0in 0pt 1.5in"><font size="2">Working knowledge of Microsoft Office Suite applications &ndash; Excel, Word, Outlook</font></div>
+      <div style="margin: 0in 0in 0pt 1.5in"><font size="2">Proficient with 10-key and computer data entry</font></div>
+      <div style="margin: 0in 0in 0pt 0.5in"><font size="2">Requires a minimum of a high school diploma or its equivalent.&nbsp;Candidate should possess at least 3 years of experience in the field.&nbsp;Has knowledge of commonly-used concepts, practices, and procedures within a particular field.</font></div></td></tr>
+      </tr>
+      <tr>
+      <tr><td align='left'><br>
+      <form action='https://tbe.taleo.net/NA9/ats/careers/apply.jsp;jsessionid=E82F1DD11CCDA595EF60B5CEFC0BD1C1.NA9_primary_jvm?org=HOS&cws=1' method='post' name='apply'>
+      <input type='hidden' name='rid' value='103'><input type='hidden' name='act' value='addCart'>
+      <input type='hidden' name='org' value='HOS'>
+      <input type='hidden' name='cws' value='1'>
+      <input type='submit' name='submit' value='Apply for this Position' tabIndex="7"></form></td>
+      <td align='right' colspan=1><br>
+      <form action='https://tbe.taleo.net/NA9/ats/careers/email.jsp;jsessionid=E82F1DD11CCDA595EF60B5CEFC0BD1C1.NA9_primary_jvm?org=HOS&cws=1' method='post' name='send'>
+      <input type='hidden' name='org' value='HOS'>
+      <input type='hidden' name='cws' value='1'>
+      <input type='hidden' name='rid' value='103'>
+      <input type='submit' name='submit' value='Send to a Friend' tabIndex="8"></form>
+      </td></tr>
+      </tr>
+      <tr>
+      <td colspan=2 width='100%'><br></td>
+      </tr>
+      <tr>
+      <td colspan=2><hr width='100%' size='1' color='silver'>
+      <span class='head1'><b>Are you a returning applicant?</b></span></td>
+      </tr>
+      <tr>
+      <form action='https://tbe.taleo.net/NA9/ats/careers/applyModal.jsp;jsessionid=E82F1DD11CCDA595EF60B5CEFC0BD1C1.NA9_primary_jvm?org=HOS&cws=1' method='post' name='TBE_theForm'>
+      <input type='hidden' name='org' value='HOS'>
+      <input type='hidden' name='cws' value='1'>
+      <input type='hidden' name='rid' value='103'>
+      <input type='hidden' name='et' value='CAND'>
+      <input type='hidden' name='act' value='addCart'>
+      <tr><td colspan=2>
+      <table border=0 cellpadding=2 cellspacing=0><tr>
+      <td nowrap colspan=2>Previous Applicants:</td>
+      </tr>
+      <tr>
+      <td nowrap align='right'><label for='email'>Email:</label></td>
+      <td nowrap><input type='text' name='email' maxlength=50 tabindex='20'></td>
+      </tr>
+      <tr>
+      <td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+      <td nowrap><input type='password' name='cwsPassword' maxlength=30 tabindex='21'></td>
+      </tr>
+      <tr><td nowrap colspan=2>
+      <input type='submit' name='submit' value='Add to My Jobs' tabIndex="22"></td></tr>
+      <tr><td nowrap colspan=2><br>
+      If you do not remember your password <a href='https://tbe.taleo.net/NA9/ats/careers/forgotID.jsp?org=HOS&cws=1' tabIndex='23'>click here</a>.<br><br></td></tr>
+      </table>
+      </td></tr></form>
+      </tr>
+      <tr>
+      <td colspan=2 width='100%'><a href='https://tbe.taleo.net/NA9/ats/careers/searchResults.jsp;jsessionid=E82F1DD11CCDA595EF60B5CEFC0BD1C1.NA9_primary_jvm?org=HOS&cws=1&rid=103'>&lt;&lt; Back to Search Results</a><br><br></td>
+      </tr>
+      <tr>
+      <td colspan=2 width='100%'><a href='https://tbe.taleo.net/NA9/ats/careers/jobSearch.jsp;jsessionid=E82F1DD11CCDA595EF60B5CEFC0BD1C1.NA9_primary_jvm?org=HOS&cws=1&rid=103'>New Search</a><br><br></td>
+      </tr>
+      <tr>
+      <td colspan=2 width='100%'><br><div align='right'><a href='https://www.taleo.com' target='_blank'><img src='https://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></a></div><br><br></td>
+      </tr>
+      </table>
+      
+      
+      
+      
+      
+      
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.core.css">
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.theme.css">
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+      <link type="text/css" rel="stylesheet" href="https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+      
+      <script language="JavaScript">
+          //jQuery Calendar
+          jQuery(document).ready(function($) {
+      	$('.jquerycalendar').datepicker({
+      altField:'',altFormat:'',appendText:'',buttonImage:'https://tbe.taleo.net/NA9/ats/cacheable/R11-12-21-16-07-02-11.5_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'...',changeMonth:true,changeYear:true,closeText:'Close',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2020'});});
+      </script>
+      <!--- FOOTER --->
+      
+      </DIV></BODY></HTML>
+      
+
+    http_version: "1.1"
